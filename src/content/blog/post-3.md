@@ -14,7 +14,7 @@ seo:
 
 ![Beach ocean shore](/post-3.jpg)
 
-![A beautiful mountain range](src/assets/images/alan-veas-mountains.jpg)
+![A beautiful mountain range](/alan-veas-mountains.jpg)
 
 **Note:** This post was created using Chat GPT to demonstrate the features of the _[Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/)_.
 
