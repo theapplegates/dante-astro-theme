@@ -19,6 +19,7 @@ export async function getStaticPaths() {
 
 type Props = { project: CollectionEntry<'projects'>; prevProject: CollectionEntry<'projects'>; nextProject: CollectionEntry<'projects'> };
 
+export const prerender = true;
 const { project, prevProject, nextProject } = Astro.props;
 const { title, description, seo } = project.data;
 const { Content } = await project.render();

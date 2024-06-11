@@ -14,6 +14,7 @@ export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
 
 type Props = { page: Page<CollectionEntry<'projects'>> };
 
+export const prerender = true;
 const { page } = Astro.props;
 const portfolio = page.data;
 ---
