@@ -24,6 +24,8 @@ Before launching your website, thoroughly test it on popular browsers such as Go
 
 ### 2. **Responsive Design:**
 
+![A white room with a window](/pawel-czerwinski.jpg)
+
 Adopt a responsive design approach to ensure your website adapts to different screen sizes and resolutions. Utilize flexible grids and layouts, CSS media queries, and fluid images to create a visually appealing and functional experience across desktops, laptops, tablets, and smartphones.
 
 ### 3. **Graceful Degradation and Progressive Enhancement:**
