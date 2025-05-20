@@ -14,6 +14,8 @@ const { showHeader = true, ...head } = Astro.props;
 <html lang="en" class="antialiased break-words">
     <head>
         <BaseHead {...head} />
+        <script src="https://unpkg.com/cloudinary-core@latest/cloudinary-core-shrinkwrap.js" type="text/javascript"> 
+        </script>
         <script>
             if (localStorage.theme === 'dark') {
                 document.documentElement.classList.add('dark');
@@ -30,5 +32,13 @@ const { showHeader = true, ...head } = Astro.props;
             </main>
             <Footer />
         </div>
+        <script type="text/javascript">
+            my_breakpoints = function (width){
+                return 50 * Math.ceil(width / 50);
+            }
+            var cl = cloudinary.Cloudinary.new({cloud_name: "paulapplegate-com"});
+            cl.config({breakpoints:my_breakpoints, responsive_use_breakpoints:"resize"})
+            cl.responsive();
+        </script>
     </body>
 </html>
